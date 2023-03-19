@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.WebApp.Mvc
+build_property.ProjectDir = C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\
