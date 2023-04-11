@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NSE.Identidade.API.Models;
-using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 
 namespace NSE.Identidade.API
