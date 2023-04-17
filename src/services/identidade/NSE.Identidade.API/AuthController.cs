@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NSE.Identidade.API.Models;
+using System;
 using System.Threading.Tasks;
 
 namespace NSE.Identidade.API
@@ -20,23 +21,33 @@ namespace NSE.Identidade.API
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
         {
-            if (!ModelState.IsValid) return BadRequest(usuarioRegistro);
-
-            var user = new IdentityUser {
-                UserName = usuarioRegistro.Email,
-                Email = usuarioRegistro.Email,
-                EmailConfirmed = true
-            };
-
-            var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
-
-            if (result.Succeeded)
+            try
             {
-                await _signInManager.SignInAsync(user, false);
+
+                if (!ModelState.IsValid) return BadRequest(usuarioRegistro);
+
+                var user = new IdentityUser
+                {
+                    UserName = usuarioRegistro.Email,
+                    Email = usuarioRegistro.Email,
+                    EmailConfirmed = true
+                };
+
+                var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
+
+                if (result.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, false);
+                    return Ok();
+                }
+
+                return BadRequest();
+            }
+            catch(Exception ex)
+            {
+                var teste = ex;
                 return Ok();
             }
-
-            return BadRequest();
         }
 
         [HttpPost("autenticar")]

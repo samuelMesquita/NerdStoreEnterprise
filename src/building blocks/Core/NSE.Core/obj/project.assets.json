@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\samuel mesquita\\.nuget\\packages\\": {}
+    "C:\\Users\\davim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+      "projectUniqueName": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
       "projectName": "NSE.Core",
-      "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
-      "packagesPath": "C:\\Users\\samuel mesquita\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
+      "projectPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+      "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
+      "outputPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samuel mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
