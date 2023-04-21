@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj": {}
+    "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj": {
+    "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj",
+        "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj",
         "projectName": "NSE.WebApp.Mvc",
-        "projectPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj",
-        "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
-        "outputPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\obj\\",
+        "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.Mvc.csproj",
+        "packagesPath": "C:\\Users\\samuel mesquita\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samuel mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,12 +56,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.31, 3.1.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
