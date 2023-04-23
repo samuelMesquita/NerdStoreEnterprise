@@ -15,9 +15,8 @@ using System.Threading.Tasks;
 
 namespace NSE.Identidade.API.Controllers
 {
-    [ApiController]
     [Route("api/identidade")]
-    public class AuthController : Controller
+    public class AuthController : MainController
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -35,51 +34,49 @@ namespace NSE.Identidade.API.Controllers
         [HttpPost("nova-conta")]
         public async Task<ActionResult> Registrar(UsuarioRegistro usuarioRegistro)
         {
-            try
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            var user = new IdentityUser
             {
+                UserName = usuarioRegistro.Email,
+                Email = usuarioRegistro.Email,
+                EmailConfirmed = true
+            };
 
-                if (!ModelState.IsValid) return BadRequest(usuarioRegistro);
+            var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
 
-                var user = new IdentityUser
-                {
-                    UserName = usuarioRegistro.Email,
-                    Email = usuarioRegistro.Email,
-                    EmailConfirmed = true
-                };
-
-                var result = await _userManager.CreateAsync(user, usuarioRegistro.Senha);
-
-                if (result.Succeeded)
-                {
-                    await _signInManager.SignInAsync(user, false);
-                    return Ok();
-                }
-
-                return BadRequest();
-            }
-            catch (Exception ex)
+            if (result.Succeeded)
             {
-                var teste = ex;
-                return Ok();
+                return CustomResponse(GerarJwt(user.Email));
             }
+
+            foreach (var erro in result.Errors)
+            {
+                AdicionarErrosProcessamentos(erro.Description);
+            }
+
+            return CustomResponse();
         }
 
         [HttpPost("autenticar")]
         public async Task<ActionResult> Login(UsuarioLogin usuarioLogin)
         {
-            if (!ModelState.IsValid) return BadRequest(usuarioLogin);
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true);
 
             if (result.Succeeded)
             {
-                return Ok(await GerarJwt(usuarioLogin.Email));
+                return CustomResponse(await GerarJwt(usuarioLogin.Email));
             }
 
             else if (result.IsLockedOut)
             {
-                return BadRequest("Numero de tentativas exedidas");
+                AdicionarErrosProcessamentos("Numero de tentativas excedidas.");
+                return CustomResponse();
             }
+
+            AdicionarErrosProcessamentos("Usuário ou senha incorretos.");
 
             return BadRequest();
         }
