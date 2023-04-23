@@ -8,3 +8,13 @@ C:\Projetos\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netc
 C:\Projetos\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.CoreCompileInputs.cache
 C:\Projetos\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Projetos\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\bin\Debug\netcoreapp3.1\NSE.Core.deps.json
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.AssemblyReference.cache
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.AssemblyInfoInputs.cache
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.AssemblyInfo.cs
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.CoreCompileInputs.cache
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
+C:\CursoDevIO\NerdStoreEnterprise\src\building blocks\Core\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
