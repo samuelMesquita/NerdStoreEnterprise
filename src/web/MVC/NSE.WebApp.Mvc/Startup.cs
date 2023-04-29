@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSE.WebApp.Mvc.Configuration;
+using NSE.WebApp.MVC.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,8 @@ namespace NSE.WebApp.Mvc
             services.AddIdentityConfiguration();
 
             services.AddAppConfiguration();
+
+            services.RegisterService();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

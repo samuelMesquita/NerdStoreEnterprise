@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj": {}
+    "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj": {
+    "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+        "projectUniqueName": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
         "projectName": "NSE.Core",
-        "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
-        "packagesPath": "C:\\Users\\samuel mesquita\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
+        "projectPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+        "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
+        "outputPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\samuel mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

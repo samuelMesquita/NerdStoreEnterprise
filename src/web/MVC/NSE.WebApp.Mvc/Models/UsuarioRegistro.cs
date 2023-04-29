@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace NSE.WebApp.Mvc.Models
+namespace NSE.WebApp.MVC.Models
 {
     public class UsuarioRegistro
     {

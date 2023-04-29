@@ -58,18 +58,16 @@ C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreap
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.RazorAssemblyInfo.cache
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.RazorAssemblyInfo.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\NSE.WebApp.Mvc.StaticWebAssets.Manifest.cache
-C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\NSE.WebApp.Mvc.StaticWebAssets.Pack.cache
-C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.NSE.WebApp.Mvc.Microsoft.AspNetCore.StaticWebAssets.props
-C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.NSE.WebApp.Mvc.props
-C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.NSE.WebApp.Mvc.props
-C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.NSE.WebApp.Mvc.props
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.TagHelpers.input.cache
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.TagHelpers.output.cache
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.RazorCoreGenerate.cache
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Login.cshtml.g.cs
+C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Registro.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -80,3 +78,5 @@ C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreap
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.pdb
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.genruntimeconfig.cache
 C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.Mvc.csproj.CopyComplete
+C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\staticwebassets\NSE.WebApp.MVC.StaticWebAssets.xml
+C:\CursoDevIO\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.WebApp.MVC.styles.css
