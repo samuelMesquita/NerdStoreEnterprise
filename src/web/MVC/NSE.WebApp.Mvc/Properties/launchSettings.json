@@ -1,4 +1,12 @@
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:54669",
+      "sslPort": 44386
+    }
+  },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
@@ -6,8 +14,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "use64Bit": true,
-      "nativeDebugging": false
+      "nativeDebugging": false,
+      "use64Bit": true
     },
     "NSE.WebApp.Mvc": {
       "commandName": "Project",
@@ -24,13 +32,5 @@
     //  "publishAllPorts": true,
     //  "useSSL": true
     //}
-  },
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:54669",
-      "sslPort": 44386
-    }
   }
 }
