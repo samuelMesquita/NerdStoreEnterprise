@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
+using NSE.WebApp.MVC.Controllers;
 using NSE.WebApp.MVC.Models;
 using NSE.WebApp.MVC.Services;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace NSE.WebApp.Mvc.Controllers
 {
-    public class IdentidadeController : Controller
+    public class IdentidadeController : MainController
     {
         private readonly IAutenticacaoService _authenticationService;
 
@@ -35,7 +36,7 @@ namespace NSE.WebApp.Mvc.Controllers
 
             var response = await _authenticationService.Login(usuarioLogin);
 
-            //if(!response) return View(usuarioLogin);
+           if(ResponsePossuiErros(response.ResponseResult)) return View(usuarioLogin);
 
             await RealizarLoginAsync(response);
 
@@ -55,7 +56,11 @@ namespace NSE.WebApp.Mvc.Controllers
         {
             if (!ModelState.IsValid) return View(usuarioRegistro);
 
-            if (false) return View(usuarioRegistro);
+            var response = await _authenticationService.Register(usuarioRegistro);
+
+            if (ResponsePossuiErros(response.ResponseResult)) return View(usuarioRegistro);
+
+            await RealizarLoginAsync(response);
 
             return RedirectToAction("Index", "Home");
         }
