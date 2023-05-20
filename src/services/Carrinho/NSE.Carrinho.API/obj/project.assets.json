@@ -100,19 +100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\davim\\.nuget\\packages\\": {}
+    "C:\\Users\\samuel mesquita\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
       "projectName": "NSE.Carrinho.API",
-      "projectPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
-      "packagesPath": "C:\\Users\\davim\\.nuget\\packages\\",
-      "outputPath": "C:\\CursoDevIO\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\obj\\",
+      "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+      "packagesPath": "C:\\Users\\samuel mesquita\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\services\\Carrinho\\NSE.Carrinho.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\davim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samuel mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -149,7 +149,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -161,7 +162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

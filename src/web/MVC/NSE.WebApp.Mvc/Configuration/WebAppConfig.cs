@@ -22,9 +22,9 @@ namespace NSE.WebApp.Mvc.Configuration
             else
             {
                 //caso seja um erro não registrado no meu middleware, sera tratado como erro de servidor na rota 500
-                app.UseExceptionHandler("/error/500");
+                app.UseExceptionHandler("/erro/500");
                 //caso seja um erro com um status code registrado, o usuario sera redirecionado para rota de erro com o status code que foi registrado.
-                app.UseStatusCodePagesWithRedirects("/error/{0}");
+                app.UseStatusCodePagesWithRedirects("/erro/{0}");
                 app.UseHsts();
             }
             app.UseHttpsRedirection();

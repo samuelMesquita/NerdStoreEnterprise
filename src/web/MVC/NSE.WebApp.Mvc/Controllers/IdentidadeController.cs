@@ -54,6 +54,7 @@ namespace NSE.WebApp.Mvc.Controllers
         [Route("criar-conta")]
         public async Task<IActionResult> Registro(UsuarioRegistro usuarioRegistro)
         {
+            
             if (!ModelState.IsValid) return View(usuarioRegistro);
 
             var response = await _authenticationService.Register(usuarioRegistro);
