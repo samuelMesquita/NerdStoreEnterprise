@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NSE.WebApp.MVC.Extensions;
 
 namespace NSE.WebApp.Mvc.Configuration
 {
@@ -20,8 +21,10 @@ namespace NSE.WebApp.Mvc.Configuration
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                //caso seja um erro não registrado no meu middleware, sera tratado como erro de servidor na rota 500
+                app.UseExceptionHandler("/error/500");
+                //caso seja um erro com um status code registrado, o usuario sera redirecionado para rota de erro com o status code que foi registrado.
+                app.UseStatusCodePagesWithRedirects("/error/{0}");
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
@@ -30,6 +33,9 @@ namespace NSE.WebApp.Mvc.Configuration
             app.UseRouting();
 
             app.UseIdentityConfiguration();
+
+            //Registrando o middleware no pipeline da aplicação
+            app.UseMiddleware<ExceptionMiddliware>();
 
             app.UseEndpoints(endpoints =>
             {
