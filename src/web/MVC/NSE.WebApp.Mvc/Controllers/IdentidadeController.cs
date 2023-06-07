@@ -23,14 +23,16 @@ namespace NSE.WebApp.Mvc.Controllers
 
         [HttpGet]
         [Route("login")]
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl = null)
         {
+            ViewData["ReturnUrl"] = returnUrl;
+
             return View();
         }
 
         [HttpPost]
         [Route("login")]
-        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin)
+        public async Task<IActionResult> Login(UsuarioLogin usuarioLogin, string returnurl = null)
         {
             if(!ModelState.IsValid) return View(usuarioLogin);
 
@@ -40,7 +42,10 @@ namespace NSE.WebApp.Mvc.Controllers
 
             await RealizarLoginAsync(response);
 
-            return RedirectToAction("Index", "Home");
+            if(string.IsNullOrEmpty(returnurl)) return RedirectToAction("Index", "Home");
+
+
+            return LocalRedirect(returnurl);
         }
 
         [HttpGet]

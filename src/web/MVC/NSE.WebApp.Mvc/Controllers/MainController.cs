@@ -8,7 +8,7 @@ namespace NSE.WebApp.MVC.Controllers
     {
        protected bool ResponsePossuiErros(ResponseResult response)
         {
-            if (response != null && response.Errors.Message.Any())
+            if (response != null && response.Value.Errors.Mensagem.Any())
             {
                 return true;
             }

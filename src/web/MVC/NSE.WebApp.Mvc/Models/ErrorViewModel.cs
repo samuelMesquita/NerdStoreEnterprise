@@ -12,6 +12,11 @@ namespace NSE.WebApp.Mvc.Models
 
     public class ResponseResult
     {
+        public Value Value { get; set; }
+    }
+
+    public class Value
+    {
         public string Title { get; set; }
         public int Status { get; set; }
         public ResponseErrorMessage Errors { get; set; }
@@ -19,6 +24,6 @@ namespace NSE.WebApp.Mvc.Models
 
     public class ResponseErrorMessage
     {
-        public List<string> Message { get; set; }
+        public List<string> Mensagem { get; set; }
     }
 }
