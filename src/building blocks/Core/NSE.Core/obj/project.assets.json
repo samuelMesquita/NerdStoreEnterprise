@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+      "projectUniqueName": "c:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
       "projectName": "NSE.Core",
-      "projectPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
+      "projectPath": "c:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\NSE.Core.csproj",
       "packagesPath": "C:\\Users\\samuel mesquita\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
+      "outputPath": "c:\\Projetos\\NerdStoreEnterprise\\src\\building blocks\\Core\\NSE.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samuel mesquita\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
