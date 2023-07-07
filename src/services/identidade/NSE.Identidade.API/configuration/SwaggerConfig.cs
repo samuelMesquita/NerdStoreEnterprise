@@ -1,11 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using NSE.Identidade.API.Data;
-using NSE.Identidade.API.Extensions.NSE.Identidade.API.Extensions;
 using System;
 
 namespace NSE.Identidade.API.Configuration

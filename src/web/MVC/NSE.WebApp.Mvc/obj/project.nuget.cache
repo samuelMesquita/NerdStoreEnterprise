@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "C+Qo7Slat6lI5BnkKcOMC3UU4/G4zpy7I6V6jN2IhOfP2SNW4fe08RbEbLoGcaZJftL0Ep4FjaZAz2iXMusAFA==",
+  "dgSpecHash": "RgdinFBOr18xp5whaUk+W2tfl+p80XwvjNjjTR3kK+KKOpNVNL40vXoWEmbiwFLQve/+VqbGx/tGd9fhLVcG4w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\NerdStoreEnterprise\\src\\web\\MVC\\NSE.WebApp.Mvc\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
     "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
     "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.identitymodel.logging\\5.5.0\\microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
     "C:\\Users\\samuel mesquita\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",

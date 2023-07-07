@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSE.WebApp.MVC.Extensions;
+using Nse.WebApi.Core;
 
 namespace NSE.WebApp.Mvc.Configuration
 {
@@ -32,7 +33,7 @@ namespace NSE.WebApp.Mvc.Configuration
 
             app.UseRouting();
 
-            app.UseIdentityConfiguration();
+            app.UseJwtConfig();
 
             //Registrando o middleware no pipeline da aplicação
             app.UseMiddleware<ExceptionMiddliware>();

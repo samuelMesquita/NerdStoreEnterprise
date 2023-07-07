@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NSE.Catalogo_API
+namespace NSE.Catalogo.API
 {
     public class Program
     {

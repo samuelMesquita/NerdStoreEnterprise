@@ -15,11 +15,5 @@ namespace NSE.WebApp.Mvc.Configuration
                     options.AccessDeniedPath = "/acesso-negado";
                 });
         }
-
-        public static void UseIdentityConfiguration(this IApplicationBuilder app)
-        {
-            app.UseAuthentication();
-            app.UseAuthorization();
-        }
     }
 }

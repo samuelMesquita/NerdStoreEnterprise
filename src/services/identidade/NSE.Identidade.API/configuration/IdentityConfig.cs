@@ -9,6 +9,7 @@ using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Extensions.NSE.Identidade.API.Extensions;
 using System.Text;
+using Nse.WebApi.Core;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -28,39 +29,6 @@ namespace NSE.Identidade.API.Configuration
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            //JWT Configuration
-
-            var AppSettingsSection = configuration.GetSection("AppSettings");
-
-            services.Configure<AppSettings>(AppSettingsSection);
-
-            var appSettings = AppSettingsSection.Get<AppSettings>();
-            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
-
-            services.AddAuthentication(x =>
-            {
-                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(x =>
-            {
-                x.RequireHttpsMetadata = true;
-                x.SaveToken = true;
-                x.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidAudience = appSettings.ValidoEm,
-                    ValidIssuer = appSettings.Emissor,
-                };
-            });
-        }
-
-        public static void UseIdentityConfiguration(this IApplicationBuilder app)
-        {
-            app.UseAuthentication();
-            app.UseAuthorization();
         }
     }
 }
