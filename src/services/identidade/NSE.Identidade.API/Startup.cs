@@ -33,7 +33,6 @@ namespace NSE.Identidade.API
         {
             services.AddIdentityConfiguration(Configuration);
 
-
             services.AddJwtConfig(Configuration);
 
             services.AddApiConfiguration();
