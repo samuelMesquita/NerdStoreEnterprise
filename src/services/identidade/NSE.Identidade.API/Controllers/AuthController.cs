@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Nse.WebApi.Core;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
 using System;

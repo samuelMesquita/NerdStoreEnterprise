@@ -106,3 +106,4 @@ C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\bin\Debug\netcoreapp3
 C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\bin\Debug\netcoreapp3.1\Nse.WebApi.Core.dll
 C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\bin\Debug\netcoreapp3.1\Nse.WebApi.Core.pdb
+C:\Projetos\NerdStoreEnterprise\src\web\MVC\NSE.WebApp.Mvc\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.MvcApplicationPartsAssemblyInfo.cs

@@ -4,14 +4,17 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NSE.WebApp.MVC.Extensions;
 using Nse.WebApi.Core;
+using Microsoft.Extensions.Configuration;
 
 namespace NSE.WebApp.Mvc.Configuration
 {
     public static class WebAppConfig
     {
-        public static void AddAppConfiguration(this IServiceCollection services)
+        public static void AddAppConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddControllersWithViews();
+
+            services.Configure<Nse.WebApi.Core.AppSettings>(configuration);
         }
 
         public static void UseAppConfiguration(this IApplicationBuilder app, IWebHostEnvironment env)
